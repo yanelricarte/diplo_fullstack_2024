@@ -1,0 +1,63 @@
+.contenedor_padre{
+  background-color: bisque;
+  display: flex;
+}
+
+.caja{
+  height: 150px;
+  width: 150px;
+}
+
+.rojo{
+  background-color: red;
+}
+
+.azul{
+  background-color: blue;
+}
+
+.rosa{
+  background-color: pink;
+}
+.naranja{
+  background-color: orange;
+}
+.amarillo{
+  background-color: yellow;
+}
+.verde{
+  background-color: rgb(0, 255, 119);
+}
+
+
+
+/* Ejemplo header*/
+.header{
+  background-color: rgb(243, 176, 212);
+}
+.logo{
+  background-color: blueviolet;  text-align: center;
+  padding: 1rem;
+}
+
+
+.navegacion{
+    display: flex;  
+    justify-content: space-between;
+}
+.menu{
+  background-color: chocolate;
+  width: 60%;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login{
+  background-color: darkcyan;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
