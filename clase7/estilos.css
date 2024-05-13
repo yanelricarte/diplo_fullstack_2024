@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;700&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(226, 224, 225);
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+.encabezado {
+  background-image: url('./img/fondo_harrypotter.jpg');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+
+}
+
+.menuSuperior {
+  list-style-type: none;
+  text-align: center;
+}
+
+.menuSuperior li {
+  display: inline-block;
+}
+
+.menuSuperior a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+
+
+
+/* Contenido */
+
+.contenido {
+  background-color: rgb(234, 181, 181);
+  padding: 2rem;
+  width: 70%;
+  float: left;
+}
+
+.contenido__imagen {
+  width: 50%;
+}
+
+.contenido__imagen img {
+  width: 100%;
+  box-shadow: 5px 5px rgba(107, 107, 107, 0.4);
+  border-radius: 10px;
+}
+
+/* Sugerencias */
+
+.contenido__sugerencias {
+  background-color: rgb(161, 161, 244);
+  border: solid 8px black;
+  border-top: solid 12px salmon;
+  line-height: 2rem;
+  padding: 2rem;
+  width: 30%;
+  float: right;
+
+}
+
+.sugerencias__libros {
+  width: 90%;
+  padding-top: 1rem;
+}
+
+.sugerencias__libros img {
+  width: 100%;
+}
+
+.lista__libros {
+  padding-top: 1rem;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  clear: both;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Ejemplo box model*/
+.box_model {
+  background-color: aqua;
+  width: 250px;
+  height: auto;
+
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+
+  padding: 10px 40px 30px 20px;
+  /* defino los cuatro lados en una linea, sentido agujas del reloj */
+
+
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+
+  margin: 10px 40px;
+  /* arroba y abajo*/
+  /*overflow: auto;*/
+
+  border: solid 5px red;
+
+}
+
+
+/* Formulario */
+
+.formulario {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fieldset {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.legend {
+  font-weight: bold;
+}
+
+.form_group {
+  margin-bottom: 1.2rem;
+}
+
+.label {
+  display: block;
+}
+
+.input,
+textarea,
+select {
+  width: 100%;
+}
+
+.input:focus {
+  background-color: rgb(193, 216, 193);
+}
+
+.submit-enviar {
+  padding: 1rem 2rem;
+  background-color: rgb(203, 240, 228);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.submit-enviar:hover {
+  background-color: rgb(129, 243, 207);
+
+}
+
+.submit-enviar:focus {
+  color: rgb(243, 150, 129);
+
+}
+
+.ejemplo li a:hover {
+  color: red;
+}
+
+.ejemplo li a:active {
+  color: rgb(0, 255, 123);
+}
+
+
+.ejemplo li a:focus {
+  color: rgb(217, 255, 0);
+}
+
+.ejemplo li a:visited {
+  color: rgb(255, 0, 200);
+  background-color: antiquewhite;
+}
+
+
+/* Ejemplo pseudoclases y pseudoelementos*/
+a:hover {
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  color: #999999;
+}
+
+a:active {
+  background-color: yellow;
+  color: black;
+}
+
+
+div:not(.padre) {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
+.padre div:nth-child(3) {
+  font-weight: bold;
+  color: orange;
+}
