@@ -27,11 +27,10 @@ html{
 
 
 /* Grid por áreas*/
-
 #grilla{
   display: grid;
   grid-template-areas:
-  "nav header header"
+  "nav header header header"
   "nav producto publicidad"
   "nav servicios publicidad"
   "nav footer footer";
