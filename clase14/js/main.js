@@ -70,6 +70,35 @@ console.log(new Date().getDay());
 */
 
 //
+//Actividad con  new Date().getDay()
+
+
+let numeroDia = new Date().getDay();
+
+switch (numeroDia) {
+    case 1:
+        dia = "lunes";
+        break;
+    case 2:
+        dia = "martes";
+        break;
+    case 3:
+        dia = "miércoles";
+        break;
+    case 4:
+        dia = "jueves";
+        break;
+    case 5:
+        dia = "viernes";
+        break;
+    case 6:
+        dia = "sábado";
+        break;
+    default: 
+    dia = "domingo";
+}
+console.log("Hoy es "+dia);
+
 
 let edad = prompt("Por favor, ingresá tu edad: ");
 
