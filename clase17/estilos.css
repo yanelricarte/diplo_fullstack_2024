@@ -44,3 +44,6 @@ button:hover{
   text-decoration: line-through;
   color: blueviolet;
 }
+.eliminar{
+  color: red;
+}
