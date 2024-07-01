@@ -18,10 +18,15 @@ const personajes ={
   ]
   }
   console.log(personajes.team)
-  console.log(personajes.characters[0].height);
+  console.log(personajes.characters[0].height);*/
 
 
+
+/* 
   //  Llamado a la api y console log
+
+
+  
 fetch('https://hp-api.herokuapp.com/api/characters')
   .then(response => response.json())
   .then(json => console.log(json))
@@ -96,4 +101,13 @@ fetch('https://hp-api.herokuapp.com/api/characters')
       console.error('Hubo un problema con la solicitud:', error.message);
     });
   
+    /*
+// fetch() .then() .catch()
+
+fetch(url)  // realiza la solicutud HTTP
+  .then(response => { // Manejar la respuesta de la solicitud
+  })
+  .catch(error => { // Manejar errores
+  });
   
+  */
